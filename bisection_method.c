@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <math.h>
+// #include <math.h>
 
 int main()
 {
@@ -12,7 +12,7 @@ int main()
     for (int i = 1; i <= 11; i++)
     {
         x = (a + b) / 2;
-        fx = pow(x, 3) - (4* x) - 9;
+        fx = x*x*x - (4* x) - 9;
 
         if (fx > 0)
         {
